@@ -1,9 +1,14 @@
+// npm run deploy
+
 // git init
 // git clone git@github.com:mdugg/blog.git
+// git push --set-upstream origin master
 // git status
 // git add .
 // git commit -m "initial push of Gatsby boilerplate"
 // git push
+
+// npm install gh-pages --save-dev
 
 // npm install --save gatsby-plugin-sass
 // npm install node-sass gatsby-plugin-sass
@@ -15,10 +20,11 @@ import "typeface-montserrat"
 import "typeface-merriweather"
 
 // normalize CSS across browsers
-import "./src/assets/normalize.css"
+import "./src/styles/normalize.css"
 // custom CSS styles
-import "./src/assets/style.css"
-import "./src/assets/app.scss"
+import "./src/styles/style.css"
+// SASS
+import "./src/styles/app.scss"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism-okaidia.css"

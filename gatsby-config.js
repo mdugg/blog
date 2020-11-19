@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Martin Duggan - blog and ideas space`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Martin Duggan`,
+      summary: `Irish digital product designer based in Atlanta, Georgia`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Blog space for me to dump ideas on digital product design, art, architecture and anything that interests me`,
+    siteUrl: `https://mdugg.github.io/blog/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `duggzdesign`,
     },
   },
   plugins: [
@@ -77,4 +77,5 @@ module.exports = {
     // added
     `gatsby-plugin-sass`,
   ],
+  pathPrefix: "/blog",
 }

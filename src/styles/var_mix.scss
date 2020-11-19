@@ -1,0 +1,52 @@
+/* 
+=================
+    VARIABLES AND MIXINS
+================= 
+*/
+// 	COLOUR PALETTE
+$primary: #B5F100;
+$secondary: #07b0e3;
+$tertiary: #fff;
+$text-link:#00a6d9; 
+
+// greyscale
+$grey8: #222;
+$grey6: #444;
+$grey5: #555;
+$grey4: #666;
+$grey2: #888;
+$grey1: #999;
+$grey0: #ccc;
+
+
+// 	LAYOUT
+@mixin flex-row {
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: -webkit-flex; 
+	display: flex;
+	flex-direction: row;
+}
+@mixin flex-column {
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: -webkit-flex; 
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin width-reader {
+    width:100%;
+    max-width:72rem;
+    padding:4rem;
+    border-radius:.4rem;
+    background-color:#fff;
+}
+
+// EFFECTS
+@mixin transition02 {
+	transition: all ease-out .2s;
+}
+@mixin transition05 {
+	transition: all ease-out .5s;
+}

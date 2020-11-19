@@ -1,0 +1,209 @@
+
+@font-face {font-family: 'AbhayaLibre-Regular'; src: url('../fonts-google02/AbhayaLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Medium'; src: url('../fonts-google02/AbhayaLibre-Medium.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-SemiBold'; src: url('../fonts-google02/AbhayaLibre-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Bold'; src: url('../fonts-google02/AbhayaLibre-Bold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-ExtraBold'; src: url('../fonts-google02/AbhayaLibre-ExtraBold.ttf') format('truetype');}
+
+@font-face {font-family: 'Amaranth-Regular'; src: url('../fonts-google02/Amaranth-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Amaranth-Italic'; src: url('../fonts-google02/Amaranth-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Amaranth-Bold'; src: url('../fonts-google02/Amaranth-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Amaranth-BoldItalic'; src: url('../fonts-google02/Amaranth-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Asar-Regular'; src: url('../fonts-google02/Asar-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'Average-Regular'; src: url('../fonts-google02/Average-Regular.ttf') format('truetype');}
+@font-face {font-family: 'AverageSans-Regular'; src: url('../fonts-google02/AverageSans-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'Belgrano-Regular'; src: url('../fonts-google02/Belgrano-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'CrimsonPro-ExtraLight'; src: url('../fonts-google02/CrimsonPro-ExtraLight') format('truetype');}
+@font-face {font-family: 'CrimsonPro-ExtraLightItalic'; src: url('../fonts-google02/CrimsonPro-ExtraLightItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Light'; src: url('../fonts-google02/CrimsonPro-Light.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-LightItalic.ttf'; src: url('../fonts-google02/CrimsonPro-LightItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Regular'; src: url('../fonts-google02/CrimsonPro-Regular.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-VariableFont_wght'; src: url('../fonts-google02/CrimsonPro-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Italic'; src: url('../fonts-google02/CrimsonPro-Italic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Italic-VariableFont_wght'; src: url('../fonts-google02/CrimsonPro-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Medium'; src: url('../fonts-google02/CrimsonPro-Medium.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-MediumItalic'; src: url('../fonts-google02/CrimsonPro-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-SemiBold'; src: url('../fonts-google02/CrimsonPro-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-SemiBoldItalic'; src: url('../fonts-google02/CrimsonPro-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Bold'; src: url('../fonts-google02/CrimsonPro-Bold.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-BoldItalic'; src: url('../fonts-google02/CrimsonPro-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-Black'; src: url('../fonts-google02/CrimsonPro-Black.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-BlackItalic'; src: url('../fonts-google02/CrimsonPro-BlackItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-ExtraBold'; src: url('../fonts-google02/CrimsonPro-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonPro-ExtraBoldItalic'; src: url('../fonts-google02/CrimsonPro-ExtraBoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'CrimsonText-Regular'; src: url('../fonts-google02/CrimsonText-Regular.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonText-Italic'; src: url('../fonts-google02/CrimsonText-Italic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonText-SemiBold'; src: url('../fonts-google02/CrimsonText-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonText-SemiBoldItalic'; src: url('../fonts-google02/CrimsonText-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonText-Bold'; src: url('../fonts-google02/CrimsonText-Bold.ttf') format('truetype');}
+@font-face {font-family: 'CrimsonText-BoldItalic'; src: url('../fonts-google02/CrimsonText-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'DavidLibre-Regular'; src: url('../fonts-google02/DavidLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'DavidLibre-Medium'; src: url('../fonts-google02/DavidLibre-Medium.ttf') format('truetype');}
+@font-face {font-family: 'DavidLibre-Bold'; src: url('../fonts-google02/DavidLibre-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'DonegalOne-Regular'; src: url('../fonts-google02/DonegalOne-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'EBGaramond-Regular'; src: url('../fonts-google02/EBGaramond-Regular.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-VariableFont_wght'; src: url('../fonts-google02/EBGaramond-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-Italic'; src: url('../fonts-google02/EBGaramond-Italic.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-Italic-VariableFont_wght'; src: url('../fonts-google02/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-Medium'; src: url('../fonts-google02/EBGaramond-Medium.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-MediumItalic'; src: url('../fonts-google02/EBGaramond-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-SemiBold'; src: url('../fonts-google02/EBGaramond-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-SemiBoldItalic'; src: url('../fonts-google02/EBGaramond-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-Bold'; src: url('../fonts-google02/EBGaramond-Bold.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-BoldItalic'; src: url('../fonts-google02/EBGaramond-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-ExtraBold'; src: url('../fonts-google02/EBGaramond-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'EBGaramond-ExtraBoldItalic'; src: url('../fonts-google02/EBGaramond-ExtraBoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Faustina-Regular'; src: url('../fonts-google02/Faustina-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-VariableFont_wght'; src: url('../fonts-google02/Faustina-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-Italic'; src: url('../fonts-google02/Faustina-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-Italic-VariableFont_wght'; src: url('../fonts-google02/Faustina-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-Medium'; src: url('../fonts-google02/Faustina-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-MediumItalic'; src: url('../fonts-google02/Faustina-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-SemiBold'; src: url('../fonts-google02/Faustina-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-SemiBoldItalic'; src: url('../fonts-google02/Faustina-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-Bold'; src: url('../fonts-google02/Faustina-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Faustina-BoldItalic'; src: url('../fonts-google02/Faustina-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Fenix-Regular'; src: url('../fonts-google02/Fenix-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'GentiumBookBasic-Regular'; src: url('../fonts-google02/GentiumBookBasic-Regular.ttf') format('truetype');}
+@font-face {font-family: 'GentiumBookBasic-Italic'; src: url('../fonts-google02/GentiumBookBasic-Italic.ttf') format('truetype');}
+@font-face {font-family: 'GentiumBookBasic-Bold'; src: url('../fonts-google02/GentiumBookBasic-Bold.ttf') format('truetype');}
+@font-face {font-family: 'GentiumBookBasic-BoldItalic'; src: url('../fonts-google02/GentiumBookBasic-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Jost-Thin'; src: url('../fonts-google02/Jost-Thin.ttf') format('truetype');}
+@font-face {font-family: 'Jost-ThinItalic'; src: url('../fonts-google02/Jost-ThinItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-ExtraLight'; src: url('../fonts-google02/Jost-ExtraLight.ttf') format('truetype');}
+@font-face {font-family: 'Jost-ExtraLightItalic'; src: url('../fonts-google02/Jost-ExtraLightItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Light'; src: url('../fonts-google02/Jost-Light.ttf') format('truetype');}
+@font-face {font-family: 'Jost-LightItalic'; src: url('../fonts-google02/Jost-LightItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Regular'; src: url('../fonts-google02/Jost-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Jost-VariableFont_wght'; src: url('../fonts-google02/Jost-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Italic'; src: url('../fonts-google02/Jost-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Italic-VariableFont_wght'; src: url('../fonts-google02/Jost-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Medium'; src: url('../fonts-google02/Jost-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Jost-MediumItalic'; src: url('../fonts-google02/Jost-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-SemiBold'; src: url('../fonts-google02/Jost-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Jost-SemiBoldItalic'; src: url('../fonts-google02/Jost-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Bold'; src: url('../fonts-google02/Jost-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Jost-BoldItalic'; src: url('../fonts-google02/Jost-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-Black'; src: url('../fonts-google02/Jost-Black.ttf') format('truetype');}
+@font-face {font-family: 'Jost-BlackItalic'; src: url('../fonts-google02/Jost-BlackItalic.ttf') format('truetype');}
+@font-face {font-family: 'Jost-ExtraBold'; src: url('../fonts-google02/Jost-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'Jost-ExtraBoldItalic'; src: url('../fonts-google02/Jost-ExtraBoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Manuale-Regular'; src: url('../fonts-google02/Manuale-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-VariableFont_wght'; src: url('../fonts-google02/Manuale-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-Italic'; src: url('../fonts-google02/Manuale-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-Italic-VariableFont_wght'; src: url('../fonts-google02/Manuale-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-Medium'; src: url('../fonts-google02/Manuale-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-MediumItalic'; src: url('../fonts-google02/Manuale-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-MediumItalic'; src: url('../fonts-google02/Manuale-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-SemiBold'; src: url('../fonts-google02/Manuale-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-SemiBoldItalic'; src: url('../fonts-google02/Manuale-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-Bold'; src: url('../fonts-google02/Manuale-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Manuale-BoldItalic'; src: url('../fonts-google02/Manuale-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'MarkaziText-Regular'; src: url('../fonts-google02/MarkaziText-Regular.ttf') format('truetype');}
+@font-face {font-family: 'MarkaziText-VariableFont_wght'; src: url('../fonts-google02/MarkaziText-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'MarkaziText-Medium'; src: url('../fonts-google02/MarkaziText-Medium.ttf') format('truetype');}
+@font-face {font-family: 'MarkaziText-SemiBold'; src: url('../fonts-google02/MarkaziText-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'MarkaziText-Bold'; src: url('../fonts-google02/MarkaziText-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'NotoSerif-Regular'; src: url('../fonts-google02/NotoSerif-Regular.ttf') format('truetype');}
+@font-face {font-family: 'NotoSerif-Italic'; src: url('../fonts-google02/NotoSerif-Italic.ttf') format('truetype');}
+@font-face {font-family: 'NotoSerif-Bold'; src: url('../fonts-google02/NotoSerif-Bold.ttf') format('truetype');}
+@font-face {font-family: 'NotoSerif-BoldItalic'; src: url('../fonts-google02/NotoSerif-BoldItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Palanquin-ExtraLight'; src: url('../fonts-google02/Palanquin-ExtraLight.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-Thin'; src: url('../fonts-google02/Palanquin-Thin.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-Light'; src: url('../fonts-google02/Palanquin-Light.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-Regular'; src: url('../fonts-google02/Palanquin-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-Medium'; src: url('../fonts-google02/Palanquin-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-SemiBold'; src: url('../fonts-google02/Palanquin-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Palanquin-Bold'; src: url('../fonts-google02/Palanquin-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'PalanquinDark-Regular'; src: url('../fonts-google02/PalanquinDark-Regular.ttf') format('truetype');}
+@font-face {font-family: 'PalanquinDark-Medium'; src: url('../fonts-google02/PalanquinDark-Medium.ttf') format('truetype');}
+@font-face {font-family: 'PalanquinDark-SemiBold'; src: url('../fonts-google02/PalanquinDark-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'PalanquinDark-Bold'; src: url('../fonts-google02/PalanquinDark-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'Petrona-Thin'; src: url('../fonts-google02/Petrona-Thin.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-ThinItalic'; src: url('../fonts-google02/Petrona-ThinItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-ExtraLight'; src: url('../fonts-google02/Petrona-ExtraLight.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-ExtraLightItalic'; src: url('../fonts-google02/Petrona-ExtraLightItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Light'; src: url('../fonts-google02/Petrona-Light.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-LightItalic'; src: url('../fonts-google02/Petrona-LightItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Italic-VariableFont_wght'; src: url('../fonts-google02/Petrona-Italic-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Regular'; src: url('../fonts-google02/Petrona-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-VariableFont_wght'; src: url('../fonts-google02/Petrona-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Italic'; src: url('../fonts-google02/Petrona-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Medium'; src: url('../fonts-google02/Petrona-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-MediumItalic'; src: url('../fonts-google02/Petrona-MediumItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-SemiBold'; src: url('../fonts-google02/Petrona-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-SemiBoldItalic'; src: url('../fonts-google02/Petrona-SemiBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Bold'; src: url('../fonts-google02/Petrona-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-BoldItalic'; src: url('../fonts-google02/Petrona-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-ExtraBold'; src: url('../fonts-google02/Petrona-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-ExtraBoldItalic'; src: url('../fonts-google02/Petrona-ExtraBoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-Black'; src: url('../fonts-google02/Petrona-Black.ttf') format('truetype');}
+@font-face {font-family: 'Petrona-BlackItalic'; src: url('../fonts-google02/Petrona-BlackItalic.ttf') format('truetype');}
+
+@font-face {font-family: 'Prata-Regular'; src: url('../fonts-google02/Prata-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'Rasa-Light'; src: url('../fonts-google02/Rasa-Light.ttf') format('truetype');}
+@font-face {font-family: 'Rasa-Regular'; src: url('../fonts-google02/Rasa-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Rasa-Medium'; src: url('../fonts-google02/Rasa-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Rasa-SemiBold'; src: url('../fonts-google02/Rasa-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Rasa-Bold'; src: url('../fonts-google02/Rasa-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'SreeKrushnadevaraya-Regular'; src: url('../fonts-google02/SreeKrushnadevaraya-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'SuezOne-Regular'; src: url('../fonts-google02/SuezOne-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'Sumana-Bold'; src: url('../fonts-google02/Sumana-Regular.ttf') format('truetype');}
+
+@font-face {font-family: 'Syne-Regular'; src: url('../fonts-google02/Syne-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Syne-VariableFont_wght'; src: url('../fonts-google02/Syne-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Medium'; src: url('../fonts-google02/Syne-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Syne-SemiBold'; src: url('../fonts-google02/Syne-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Bold'; src: url('../fonts-google02/Syne-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-ExtraBold'; src: url('../fonts-google02/Syne-ExtraBold.ttf') format('truetype');}
+
+
+
+.AbhayaLibre * {font-family: 'AbhayaLibre-Regular'; font-style:normal; font-weight:normal; }
+.Amaranth * {font-family: 'Amaranth-Regular'; font-style:normal; font-weight:normal; }
+.Asar * {font-family: 'Asar-Regular'; font-style:normal; font-weight:normal; }
+.Average * {font-family: 'Average-Regular'; font-style:normal; font-weight:normal; }
+.AverageSans * {font-family: 'AverageSans-Regular'; font-style:normal; font-weight:normal; }
+.Belgrano * {font-family: 'Belgrano-Regular'; font-style:normal; font-weight:normal; }
+.Crimson * {font-family: 'CrimsonPro-Regular'; font-style:normal; font-weight:normal; }
+.CrimsonText * {font-family: 'CrimsonText-Regular'; font-style:normal; font-weight:normal; }
+.DavidLibre * {font-family: 'DavidLibre-Regular'; font-style:normal; font-weight:normal; }
+.DonegalOne * {font-family: 'DonegalOne-Regular'; font-style:normal; font-weight:normal; }
+.EBGaramond * {font-family: 'EBGaramond-Regular'; font-style:normal; font-weight:normal; }
+.Faustina * {font-family: 'Faustina-Regular'; font-style:normal; font-weight:normal; }
+.Fenix * {font-family: 'Fenix-Regular'; font-style:normal; font-weight:normal; }
+.GentiumBookBasic * {font-family: 'GentiumBookBasic-Regular'; font-style:normal; font-weight:normal; }
+.Jost * {font-family: 'Jost-Regular'; font-style:normal; font-weight:normal; }
+.Manuale * {font-family: 'Manuale-Regular'; font-style:normal; font-weight:normal; }
+.MarkaziText * {font-family: 'MarkaziText-Regular'; font-style:normal; font-weight:normal; }
+.NotoSerif * {font-family: 'MotoSerif-Regular'; font-style:normal; font-weight:normal; }
+.Palanquin * {font-family: 'Palanquin-Regular'; font-style:normal; font-weight:normal; }
+.Petrona * {font-family: 'Petrona-Regular'; font-style:normal; font-weight:normal; }
+.Prata * {font-family: 'Prata-Regular'; font-style:normal; font-weight:normal; }
+.Rasa * {font-family: 'Rasa-Regular'; font-style:normal; font-weight:normal; }
+.SreeKrushnadevaraya * {font-family: 'SreeKrushnadevaraya-Regular'; font-style:normal; font-weight:normal; }
+.SuezOne * {font-family: 'SuezOne-Regular'; font-style:normal; font-weight:normal; }
+.Sumana * {font-family: 'Sumana-Bold'; font-style:normal; font-weight:normal; }
+.Syne * {font-family: 'Syne-Regular'; font-style:normal; font-weight:normal; }

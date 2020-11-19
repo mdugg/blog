@@ -1,31 +1,18 @@
 ---
-title: Intro to design
-date: "2015-05-01T22:12:03.284Z"
-description: "Intro to design"
+title: Markdown reference - keeping it lazy
+date: "2020-11-19T12:00:00.284Z"
+description: "Notes for myself, bunch of Markdown references"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Taking [Gatsby](https://www.gatsbyjs.com/) for a spin :D
 
-I'm sure I'll write a lot more interesting things in the future.
+I'm keeping this Gatsby page as a lazy reference for Markdown. Really I should park this elsewhere, but it will be handy to quickly access within my VS Code project pane.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-```javascript
-let name = "Marty"
-```
+> Here's a bunch of text that will be wrapped in \<blockquote> with markup escaped
 
 ![Chinese Salty Egg](./salty_egg.jpg)
 
-You can also write code blocks here!
+## Code blocks
 
 ```js
 const saltyDuckEgg = "chinese preserved food product"

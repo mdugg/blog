@@ -1,0 +1,111 @@
+/* Alegreya - 400 500 700 */
+@font-face {font-family: 'Alegreya-Regular'; src: url('../fonts-google01/Alegreya-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Alegreya-Medium'; src: url('../fonts-google01/Alegreya-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Alegreya-Bold'; src: url('../fonts-google01/Alegreya-Bold.ttf') format('truetype');}
+
+/* Alegreya Sans */
+@font-face {font-family: 'AlegreyaSans-Thin'; src: url('../fonts-google01/AlegreyaSans-Thin.ttf') format('truetype');}
+@font-face {font-family: 'AlegreyaSans-Regular'; src: url('../fonts-google01/AlegreyaSans-Regular.ttf') format('truetype');}
+@font-face {font-family: 'AlegreyaSans-Medium'; src: url('../fonts-google01/AlegreyaSans-Medium.ttf') format('truetype');}
+
+/* Amiri */
+@font-face {font-family: 'Amiri-Regular'; src: url('../fonts-google01/Amiri-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Amiri-Bold'; src: url('../fonts-google01/Amiri-Bold.ttf') format('truetype');}
+
+/* Cardo */
+@font-face {font-family: 'Cardo-Regular'; src: url('../fonts-google01/Cardo-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Cardo-Bold'; src: url('../fonts-google01/Cardo-Bold.ttf') format('truetype');}
+
+/* Catamaran */ 
+@font-face {font-family: 'Catamaran-Thin'; src: url('../fonts-google01/Catamaran-Thin.ttf') format('truetype');}
+@font-face {font-family: 'Catamaran-Regular'; src: url('../fonts-google01/Catamaran-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Catamaran-Medium'; src: url('../fonts-google01/Catamaran-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Catamaran-SemiBold'; src: url('../fonts-google01/Catamaran-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Catamaran-Bold'; src: url('../fonts-google01/Catamaran-Bold.ttf') format('truetype');}
+
+/* Fira */
+@font-face {font-family: 'FiraSans-Light'; src: url('../fonts-google01/FiraSans-Light.ttf') format('truetype');}
+@font-face {font-family: 'Fira-Regular'; src: url('../fonts-google01/FiraSans-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Fira-Medium'; src: url('../fonts-google01/FiraSans-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Fira-Bold'; src: url('../fonts-google01/FiraSans-Bold.ttf') format('truetype');}
+
+/* Fjord One - 400 */
+@font-face {font-family: 'FjordOne-Regular'; src: url('../fonts-google01/FjordOne-Regular.ttf') format('truetype');}
+
+/* Gurajada - 400 */
+@font-face {font-family: 'Gurajada-Regular'; src: url('../fonts-google01/Gurajada-Regular.ttf') format('truetype');}
+
+/* LibreBaskerville */
+@font-face {font-family: 'LibreBaskerville-Regular'; src: url('../fonts-google01/LibreBaskerville-Regular.ttf') format('truetype');}
+
+/* Magra - 400 */
+@font-face {font-family: 'Magra-Regular'; src: url('../fonts-google01/Magra-Regular.ttf') format('truetype');}
+
+/* Markazi - 400 */
+@font-face {font-family: 'MarkaziText-Regular'; src: url('../fonts-google01/MarkaziText-Regular.ttf') format('truetype');}
+
+/* Merriweather - 400 */
+@font-face {font-family: 'Merriweather-Regular'; src: url('../fonts-google01/Merriweather-Regular.ttf') format('truetype');}
+
+/* Playfair -  */
+@font-face {font-family: 'PlayfairDisplay-Regular'; src: url('../fonts-google01/PlayfairDisplay-Regular.ttf') format('truetype');}
+
+/* Radley - 400 */
+@font-face {font-family: 'Radley-Regular'; src: url('../fonts-google01/Radley-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Radley-Italic'; src: url('../fonts-google01/Radley-Italic.ttf') format('truetype');}
+
+/* Raleway - 100 300 400 500 600 700 */
+@font-face {font-family: 'Raleway-Thin'; src: url('../fonts-google01/Raleway-Thin.ttf') format('truetype');}
+@font-face {font-family: 'Raleway-Light'; src: url('../fonts-google01/Raleway-Light.ttf') format('truetype');}
+@font-face {font-family: 'Raleway-Regular'; src: url('../fonts-google01/Raleway-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Raleway-Medium'; src: url('../fonts-google01/Raleway-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Raleway-Semibold'; src: url('../fonts-google01/Raleway-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Raleway-Bold'; src: url('../fonts-google01/Raleway-Bold.ttf') format('truetype');}
+
+/* Volkhov - 400 700 */
+@font-face {font-family: 'Volkhov-Regular'; src: url('../fonts-google01/Volkhov-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Volkhov-Italic'; src: url('../fonts-google01/Volkhov-Italic.ttf') format('truetype');}
+@font-face {font-family: 'VVolkhov-Bold'; src: url('../fonts-google01/Volkhov-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Volkhov-BoldItalic'; src: url('../fonts-google01/Volkhov-BoldItalic.ttf') format('truetype');}
+
+
+// testing fonts
+.test-fonts {
+    @include flex-row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    li {
+        width:100%;
+        max-width:40rem;
+        background-color:#fff;
+        margin:1%;
+        padding:2%;
+    }
+    p {
+        font-size:2rem;
+    }
+}
+.alegreya * {font-family: 'Alegreya-Regular'; font-style:normal; font-weight:normal; }
+.alegreya-sans * {font-family: 'AlegreyaSans-Regular'; font-style:normal; font-weight:normal; }
+.amiri * {font-family: 'Amiri-Regular'; font-style:normal; font-weight:normal; }
+.cardo * {font-family: 'Cardo-Regular'; font-style:normal; font-weight:normal; }
+.catamaran * {font-family: 'Catamaran-Regular'; font-style:normal; font-weight:normal; }
+.fira * {font-family: 'Fira-Regular'; font-style:normal; font-weight:normal; }
+.fjord * {font-family: 'FjordOne-Regular'; font-style:normal; font-weight:normal; }
+.gurajada * {font-family: 'Gurajada-Regular'; font-style:normal; font-weight:normal; }
+.libre * {font-family: 'LibreBaskerville-Regular'; font-style:normal; font-weight:normal; }
+.magra * {font-family: 'Magra-Regular'; font-style:normal; font-weight:normal; }
+.markazi * {font-family: 'MarkaziText-Regular'; font-style:normal; font-weight:normal; }
+.merriweather * {font-family: 'Merriweather-Regular'; font-style:normal; font-weight:normal; }
+.playfair * {font-family: 'PlayfairDisplay-Regular'; font-style:normal; font-weight:normal; }
+.radley * {font-family: 'Radley-Regular'; font-style:normal; font-weight:normal; }
+.raleway * {font-family: 'Raleway-Regular'; font-style:normal; font-weight:normal; }
+.volkhov * {font-family: 'Volkhov-Regular'; font-style:normal; font-weight:normal; }
+
+
+
+
+
+
+
+

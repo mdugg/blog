@@ -1,0 +1,74 @@
+@font-face {font-family: 'AbhayaLibre-Regular'; src: url('../fonts-google02/AbhayaLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Medium'; src: url('../fonts-google02/AbhayaLibre-Medium.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-SemiBold'; src: url('../fonts-google02/AbhayaLibre-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Bold'; src: url('../fonts-google02/AbhayaLibre-Bold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-ExtraBold'; src: url('../fonts-google02/AbhayaLibre-ExtraBold.ttf') format('truetype');}
+
+@font-face {font-family: 'Syne-Regular'; src: url('../fonts-google02/Syne-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Syne-VariableFont_wght'; src: url('../fonts-google02/Syne-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Medium'; src: url('../fonts-google02/Syne-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Syne-SemiBold'; src: url('../fonts-google02/Syne-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Bold'; src: url('../fonts-google02/Syne-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-ExtraBold'; src: url('../fonts-google02/Syne-ExtraBold.ttf') format('truetype');}
+
+body {
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue", Helvetica, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Nimbus Sans L", Geneva, Arial, sans-serif;
+    font-style: normal;
+    font-weight:normal;
+    color:$grey6;
+    font-size: 1.6rem;
+}
+h1 {
+    font-family: 'Syne-Regular';
+    font-size:4rem;
+    line-height:1.2;
+    font-style:normal;
+    font-weight:normal;
+    margin-bottom:2rem;
+}
+h2 {
+    font-family: 'Syne-Regular';
+    font-size:2.8rem;
+    line-height:1.2;
+    font-style:normal;
+    font-weight:normal;
+    margin-bottom:2rem;
+    position:relative;
+    &:before {
+        display:block;
+        height:2.4rem;
+        width:.4rem;
+        position:absolute;
+        top:.5rem;
+        left:-2.4rem;
+        background-color: $primary;
+        content:'';
+    }
+}
+h3 {
+    font-family: 'Syne-Regular';
+    font-size:2.8rem;
+    line-height:1.2;
+    font-style:normal;
+    font-weight:normal;
+    margin-bottom:2rem;
+}
+p {
+    color:$grey6;
+    font-family: 'Syne-Regular';
+    font-size:1.8rem;
+    line-height: 1.4;
+    font-style:normal;
+    font-weight:normal;
+    margin-bottom:1.6rem;
+    strong {
+        font-family: 'Syne-VariableFont_wght';
+    }
+}
+a {
+	@include transition02;
+	color:$text-link;
+	}

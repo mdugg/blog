@@ -1,0 +1,61 @@
+// TEMPLATES
+// Single col reading 
+.md-page-container {
+    @include flex-column;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+}
+
+.md-page-content {
+    @include width-reader;
+}
+
+.md-full-width {
+    @include flex-column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+// PAGES
+// new blog message - temporary
+.intro-text {
+    margin:4rem 0 8rem;
+    p {
+        font-size:2.4rem;
+    }
+    .large {
+        font-size:4rem;
+        color:$primary;
+    }
+    .fa-smile-beam {
+        margin-right: .8rem;
+    }
+}
+
+.md-feature-blog-list {
+    li {
+        margin-bottom:2.4rem;
+    }
+    a {
+        color:inherit;
+        text-decoration:none;
+        border-bottom:.4rem solid #fff;
+        &:hover {
+            border-bottom:.4rem solid $primary;
+        }
+    }
+    .feature-title {
+        font-family: 'AbhayaLibre-Regular';
+        font-size:4.8rem;
+        line-height:1;
+        font-style:normal;
+        font-weight:normal;
+    }
+    .date {
+        font-size:1.4rem;
+        margin-top:.8rem;
+        display:block;
+    }
+}

@@ -21,13 +21,45 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+    <div className="md-site" data-is-root-path={isRootPath}>
+      <header className="md-site-header">
+        <h1 className="screen-reader-text">
+          <Link to="/">{title}</Link>
+        </h1>
+      </header>
+      <main className="md-content" id="#content">
+        {children}
+      </main>
+      <footer className="md-site-footer">
+        <ul class="md-footer-sm-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/martinduggan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i> Linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/duggzdesign"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter"></i> @duggzdesign
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mdugg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i> Github
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
   )
