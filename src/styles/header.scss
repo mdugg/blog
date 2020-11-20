@@ -12,10 +12,13 @@
     }
 }
 .md-logo-link {
-    margin-right:4rem;
-}
-.md-logo {
     width:5.6rem;
+}
+.md-logo-svg {
+    fill:$primary;
+    .md {
+        fill:#000;
+    }
 }
 .md-nav-block {
     .md-nav-links {

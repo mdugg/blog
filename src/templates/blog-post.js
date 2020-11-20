@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+// import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -21,18 +21,20 @@ const BlogPostTemplate = ({ data, location }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+        <header className="md-post-header">
+          <h1 className="md-post-title" itemProp="headline">
+            {post.frontmatter.title}
+          </h1>
+          <p className="date">{post.frontmatter.date}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
-        <footer>
+        {/* <hr /> */}
+        {/* <footer>
           <Bio />
-        </footer>
+        </footer> */}
       </article>
       <nav className="blog-post-nav">
         <ul

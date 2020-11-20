@@ -1,16 +1,26 @@
 ---
-title: Markdown reference - keeping it lazy
+title: First (lazy) blog post ...it's theived from Gatsby boilerplate
 date: "2020-11-19T12:00:00.284Z"
 description: "Notes for myself, bunch of Markdown references"
 ---
 
-Taking [Gatsby](https://www.gatsbyjs.com/) for a spin :D
+I've decided to take [Gatsby](https://www.gatsbyjs.com/) for a spin :D
+
+I started building this blog using [Jekyll](https://jekyllrb.com/) but dumped it and switched to Gatsby.
+As much as Jekyll 'felt' great, very intuitive for me - a designer, not developer - Gatsby uses a bunch of technologies that I'm more interested in delving into.
+
+Gatsby is a steeper hill to climb, but rolling up the sleeves and delving in will pay greater dividends, I feel.
 
 I'm keeping this Gatsby page as a lazy reference for Markdown. Really I should park this elsewhere, but it will be handy to quickly access within my VS Code project pane.
 
+## ...so, turn back now! the rest of this is not worth reading
+## ...also, this is just an example of a H2 using markdown
+### ...you're still reading this, so here's an example of a H3 using markdown
+
 > Here's a bunch of text that will be wrapped in \<blockquote> with markup escaped
 
-![Chinese Salty Egg](./salty_egg.jpg)
+Example of an image link: pic I took somewhere in Chattahoochee National Forest:
+![Amazing mountains of Blue Ridge](./chattahoochee.jpg)
 
 ## Code blocks
 

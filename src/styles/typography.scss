@@ -1,15 +1,20 @@
-@font-face {font-family: 'AbhayaLibre-Regular'; src: url('../fonts-google02/AbhayaLibre-Regular.ttf') format('truetype');}
-@font-face {font-family: 'AbhayaLibre-Medium'; src: url('../fonts-google02/AbhayaLibre-Medium.ttf') format('truetype');}
-@font-face {font-family: 'AbhayaLibre-SemiBold'; src: url('../fonts-google02/AbhayaLibre-SemiBold.ttf') format('truetype');}
-@font-face {font-family: 'AbhayaLibre-Bold'; src: url('../fonts-google02/AbhayaLibre-Bold.ttf') format('truetype');}
-@font-face {font-family: 'AbhayaLibre-ExtraBold'; src: url('../fonts-google02/AbhayaLibre-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Regular'; src: url('../assets/fonts-google02/AbhayaLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Medium'; src: url('../assets/fonts-google02/AbhayaLibre-Medium.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-SemiBold'; src: url('../assets/fonts-google02/AbhayaLibre-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-Bold'; src: url('../assets/fonts-google02/AbhayaLibre-Bold.ttf') format('truetype');}
+@font-face {font-family: 'AbhayaLibre-ExtraBold'; src: url('../assets/fonts-google02/AbhayaLibre-ExtraBold.ttf') format('truetype');}
 
-@font-face {font-family: 'Syne-Regular'; src: url('../fonts-google02/Syne-Regular.ttf') format('truetype');}
-@font-face {font-family: 'Syne-VariableFont_wght'; src: url('../fonts-google02/Syne-VariableFont_wght.ttf') format('truetype');}
-@font-face {font-family: 'Syne-Medium'; src: url('../fonts-google02/Syne-Medium.ttf') format('truetype');}
-@font-face {font-family: 'Syne-SemiBold'; src: url('../fonts-google02/Syne-SemiBold.ttf') format('truetype');}
-@font-face {font-family: 'Syne-Bold'; src: url('../fonts-google02/Syne-Bold.ttf') format('truetype');}
-@font-face {font-family: 'Syne-ExtraBold'; src: url('../fonts-google02/Syne-ExtraBold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Regular'; src: url('../assets/fonts-google02/Syne-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Syne-VariableFont_wght'; src: url('../assets/fonts-google02/Syne-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Medium'; src: url('../assets/fonts-google02/Syne-Medium.ttf') format('truetype');}
+@font-face {font-family: 'Syne-SemiBold'; src: url('../assets/fonts-google02/Syne-SemiBold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-Bold'; src: url('../assets/fonts-google02/Syne-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Syne-ExtraBold'; src: url('../assets/fonts-google02/Syne-ExtraBold.ttf') format('truetype');}
+
+
+html {
+    font-size: 62.5%;
+}
 
 body {
     text-rendering: geometricPrecision;

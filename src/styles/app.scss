@@ -15,15 +15,15 @@ SASS
 @import './pages';
 
 // typography
-// @import './typography';
+@import './typography';
 // @import 'test/fonts-google01';
 // @import 'test/fonts-google02';
 
 // icons
-// @import 'fa/fontawesome';
-// @import 'fa/regular';
-// @import 'fa/solid';
-// @import 'fa/brands';
+@import 'fa/fontawesome';
+@import 'fa/regular';
+@import 'fa/solid';
+@import 'fa/brands';
 
 
 // components
